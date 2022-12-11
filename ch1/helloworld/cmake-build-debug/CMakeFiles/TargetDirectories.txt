@@ -1,0 +1,3 @@
+/home/yi/Git/cpp-crash-course/helloworld/cmake-build-debug/CMakeFiles/helloworld.dir
+/home/yi/Git/cpp-crash-course/helloworld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yi/Git/cpp-crash-course/helloworld/cmake-build-debug/CMakeFiles/rebuild_cache.dir
