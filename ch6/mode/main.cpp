@@ -1,17 +1,24 @@
 #include <cstdio>
 #include <stdexcept>
-#include <algorithm>
+#include <concepts>
 
-int mode(const int *values, size_t length) {
+template<typename T>
+concept Integer = std::is_integral<T>::value;
+
+template<typename T>
+concept Number = std::is_integral<T>::value || std::is_floating_point<T>::value;
+
+template<Integer T>
+T mode(const T *values, size_t length) {
     if (length == 1) return values[0];
 
-    int *sorted_values = new int[length];
+    T *sorted_values = new T[length];
     for (size_t i = 0; i < length; i++) {
         sorted_values[i] = values[i];
     }
     std::sort(sorted_values, sorted_values + length);
 
-    int mode{};
+    T mode{};
     int num_modes{};
     int max_counter{};
     int current_counter{1};
@@ -39,7 +46,6 @@ int mode(const int *values, size_t length) {
 
     delete[] sorted_values;
 
-    printf("num_modes: %d\n", num_modes);
     if(num_modes != 1) {
         return 0;
     }
@@ -47,8 +53,17 @@ int mode(const int *values, size_t length) {
     return mode;
 }
 
+template<size_t Length, Number T>
+T mean(T (arr)[Length]) {
+    T result{};
+    for(size_t i{}; i < Length; i++) {
+        result += arr[i];
+    }
+    return result / Length;
+}
+
 int main() {
-    int arr[]{1, 2, 3, 4, 5};
-    auto result = mode(arr, sizeof(arr)/ sizeof(arr[0]));
-    printf("%d\n", result);
+    double arr[]{1, 101};
+    auto result = mean<2>(arr);
+    printf("%f\n", result);
 }
