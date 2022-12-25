@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Buckets.exe"
+			"path" : "PrimeNumber.exe"
 		},
 		{
-			"path" : "Buckets.pdb"
+			"path" : "PrimeNumber.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "Buckets::@6890427a1f51a3e7e1df",
+	"id" : "PrimeNumber::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Buckets",
-	"nameOnDisk" : "Buckets.exe",
+	"name" : "PrimeNumber",
+	"nameOnDisk" : "PrimeNumber.exe",
 	"paths" : 
 	{
 		"build" : ".",

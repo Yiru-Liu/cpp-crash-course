@@ -767,8 +767,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/Yi/Git/cpp-crash-course/ch7/Buckets/cmake-build-debug",
-		"source" : "C:/Users/Yi/Git/cpp-crash-course/ch7/Buckets"
+		"build" : "C:/Users/Yi/Git/cpp-crash-course/ch8/PrimeNumber/cmake-build-debug",
+		"source" : "C:/Users/Yi/Git/cpp-crash-course/ch8/PrimeNumber"
 	},
 	"version" : 
 	{
