@@ -1,0 +1,9 @@
+# ninja log v5
+0	85	6936805850954890	CMakeFiles/PrimeNumber.dir/main.cpp.obj	b150c02228183a30
+86	187	6936805851930511	PrimeNumber.exe	f68010e2c2d504b6
+2	69	6936806229885769	CMakeFiles/PrimeNumber.dir/main.cpp.obj	b150c02228183a30
+70	137	6936806230523608	PrimeNumber.exe	f68010e2c2d504b6
+2	70	6936806852256583	CMakeFiles/PrimeNumber.dir/main.cpp.obj	b150c02228183a30
+71	140	6936806852911404	PrimeNumber.exe	f68010e2c2d504b6
+1	70	6936807361215227	CMakeFiles/PrimeNumber.dir/main.cpp.obj	b150c02228183a30
+70	139	6936807361861702	PrimeNumber.exe	f68010e2c2d504b6
